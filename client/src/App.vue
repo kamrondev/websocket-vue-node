@@ -39,7 +39,7 @@ onMounted(() => {
           Send
         </button>
       </form>
-      <TheMessageList :chat="chat" :message="message" />
+      <TheMessageList :chat="chat" />
     </div>
   </div>
 </template>
