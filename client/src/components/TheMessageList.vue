@@ -1,6 +1,4 @@
 <script setup>
-import { onMounted } from 'vue'
-
 const { chat } = defineProps({
   chat: {
     type: Array,
